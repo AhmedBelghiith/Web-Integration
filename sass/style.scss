@@ -1,0 +1,234 @@
+@import "variables.scss";
+
+/* .navbar{
+    background-color: $navBarColor;
+}
+.nav-link{
+    font-size: 1.875rem !important;
+    color: $navElemColor !important;
+    font-family: 'Lato Regular';
+}
+.title{
+    color: $titleColor;
+    font-family: 'Playfair Display SC Bold';
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 5.5rem;
+    padding-bottom:2.5rem ;
+}
+.title2{
+    //font-family: 'Myriad Pro Regular';
+    font-size: 2.25rem;
+    color: $title2Color;
+    align-self: center;
+}
+.base{
+    height: 4.375rem;
+    width: 4.375rem;
+    align-self: center;
+}
+.parag1{
+    font-family: 'Lato Regular';
+    font-size: 1.5rem;
+    text-align: right;
+    padding-bottom: 4.375rem;
+}
+.sep1{
+    padding-bottom: 3.75rem !important;
+}
+
+.fa-briefcase{
+    height: 2.625rem;
+    width: 2.75rem;
+    align-self: center;
+}
+.fa-trophy
+{
+    @extend .fa-briefcase;
+}
+.fa-code{
+    @extend .fa-trophy;
+}
+.title3{
+    font-family: 'Playfair Display SC Bold';
+    font-weight: bold;
+    font-size: 2.1875rem;
+    color: $title3Color;
+
+}
+h5{
+    color: $dateColor !important;
+    font-size: 1.5rem;
+    font-family: 'Lato Regular';
+}
+h4{
+    color: $subTitleColor !important;
+    font-family: 'Lato';
+    font-weight: bold !important;
+}
+h6{
+    color: $dateColor !important;
+    font-family: 'Lato Regular';
+    font-size: 1.125rem !important;
+}
+.box{
+	color: white;
+	top: 5%;
+}
+
+.tt{
+    color: white !important;
+}
+.pdlft{
+    padding-left: 28rem;
+    align-items: center !important;
+}
+.fa-facebook{
+    width: 1.875rem;
+    height: 1.875rem;
+    color: $dateColor;
+}
+.fa-instagram{
+    @extend .fa-facebook;
+}
+.fa-github{
+    @extend .fa-facebook;
+}
+.fa-discord{
+    @extend .fa-facebook;
+}
+.fa-youtube{
+    @extend .fa-facebook;
+} */
+
+.navbar-header{
+    padding-right: 196px;
+}
+
+.nav-item{
+    padding-right: 80px;
+}
+.nav-link{
+    color: $primaryColor !important;
+    display: block !important;
+    font-family: $primaryFont;
+    font-size: 24px !important;
+    display: inline;
+}
+
+#section1{
+    padding: 137px 0;
+    h2{
+        color: $primaryColor;
+        font-family: $primaryFont;
+        font-size: 74px;
+    }
+
+    .img1{
+        height: 450px;
+        width: 650px;
+    }
+    p{
+        font-family: $SecondaryFont;
+        font-size: 18px;
+        color: $secondaryColor;
+    }
+
+    .btn-lg.round{
+        background-color: $thirdColor;
+        border-radius: 24px;
+        color: $white;
+    }
+
+    
+}
+
+#section2{
+   padding:  307px 0 213px;
+
+   h3{
+    font-family: $primaryFont;
+    color: $primaryColor;
+    font-size: 45px;
+    margin-bottom: 82px;
+   }
+
+   .btn-lg.round{
+    background-color: $thirdColor;
+    border-radius: 24px;
+    color: $white;
+    padding-left: 48px ;
+    padding-right: 48px ;}
+
+    .image-container {
+        position: relative;
+      }
+      
+    .image-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        z-index: 1;
+    }
+    .briefcase{
+        
+    }
+
+    p{
+        color: $primaryColor;
+        font-family: $SecondaryFont;
+        font-size: 15px;
+    }
+
+
+   
+}
+
+#section3{
+    padding-bottom: 168px;
+    h2{
+        color: $primaryColor;
+        font-family: $primaryFont;
+    }
+    .btn-lg.round{
+        background-color: $thirdColor;
+        border-radius: 24px;
+        color: $white;
+        padding-left: 48px ;
+        padding-right: 48px ;}
+
+    .form-control{
+        background-color: $primaryColor;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: $primaryFont;
+        color: white;
+    }
+
+
+}
+
+footer{
+    background-color: $primaryColor;
+    padding-bottom: 100px;
+    .txt1{
+        padding-top: 100px;
+        font-family: $primaryFont;
+        color: $thirdColor;
+        font-size: 49px;
+    }
+    .txt2{
+        display: inline;
+        color: $white;
+        padding-right: 50px;
+
+    }
+    .tt{
+        padding-left: 650px;
+    }
+}
+
+

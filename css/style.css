@@ -1,0 +1,215 @@
+/* .navbar{
+    background-color: $navBarColor;
+}
+.nav-link{
+    font-size: 1.875rem !important;
+    color: $navElemColor !important;
+    font-family: 'Lato Regular';
+}
+.title{
+    color: $titleColor;
+    font-family: 'Playfair Display SC Bold';
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 5.5rem;
+    padding-bottom:2.5rem ;
+}
+.title2{
+    //font-family: 'Myriad Pro Regular';
+    font-size: 2.25rem;
+    color: $title2Color;
+    align-self: center;
+}
+.base{
+    height: 4.375rem;
+    width: 4.375rem;
+    align-self: center;
+}
+.parag1{
+    font-family: 'Lato Regular';
+    font-size: 1.5rem;
+    text-align: right;
+    padding-bottom: 4.375rem;
+}
+.sep1{
+    padding-bottom: 3.75rem !important;
+}
+
+.fa-briefcase{
+    height: 2.625rem;
+    width: 2.75rem;
+    align-self: center;
+}
+.fa-trophy
+{
+    @extend .fa-briefcase;
+}
+.fa-code{
+    @extend .fa-trophy;
+}
+.title3{
+    font-family: 'Playfair Display SC Bold';
+    font-weight: bold;
+    font-size: 2.1875rem;
+    color: $title3Color;
+
+}
+h5{
+    color: $dateColor !important;
+    font-size: 1.5rem;
+    font-family: 'Lato Regular';
+}
+h4{
+    color: $subTitleColor !important;
+    font-family: 'Lato';
+    font-weight: bold !important;
+}
+h6{
+    color: $dateColor !important;
+    font-family: 'Lato Regular';
+    font-size: 1.125rem !important;
+}
+.box{
+	color: white;
+	top: 5%;
+}
+
+.tt{
+    color: white !important;
+}
+.pdlft{
+    padding-left: 28rem;
+    align-items: center !important;
+}
+.fa-facebook{
+    width: 1.875rem;
+    height: 1.875rem;
+    color: $dateColor;
+}
+.fa-instagram{
+    @extend .fa-facebook;
+}
+.fa-github{
+    @extend .fa-facebook;
+}
+.fa-discord{
+    @extend .fa-facebook;
+}
+.fa-youtube{
+    @extend .fa-facebook;
+} */
+.navbar-header {
+  padding-right: 196px;
+}
+
+.nav-item {
+  padding-right: 80px;
+}
+
+.nav-link {
+  color: #314584 !important;
+  display: block !important;
+  font-family: "Work Sans SemiBold";
+  font-size: 24px !important;
+  display: inline;
+}
+
+#section1 {
+  padding: 137px 0;
+}
+#section1 h2 {
+  color: #314584;
+  font-family: "Work Sans SemiBold";
+  font-size: 74px;
+}
+#section1 .img1 {
+  height: 450px;
+  width: 650px;
+}
+#section1 p {
+  font-family: "Work Sans Regular";
+  font-size: 18px;
+  color: #6e757a;
+}
+#section1 .btn-lg.round {
+  background-color: #ff3946;
+  border-radius: 24px;
+  color: #ffffff;
+}
+
+#section2 {
+  padding: 307px 0 213px;
+}
+#section2 h3 {
+  font-family: "Work Sans SemiBold";
+  color: #314584;
+  font-size: 45px;
+  margin-bottom: 82px;
+}
+#section2 .btn-lg.round {
+  background-color: #ff3946;
+  border-radius: 24px;
+  color: #ffffff;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+#section2 .image-container {
+  position: relative;
+}
+#section2 .image-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+#section2 p {
+  color: #314584;
+  font-family: "Work Sans Regular";
+  font-size: 15px;
+}
+
+#section3 {
+  padding-bottom: 168px;
+}
+#section3 h2 {
+  color: #314584;
+  font-family: "Work Sans SemiBold";
+}
+#section3 .btn-lg.round {
+  background-color: #ff3946;
+  border-radius: 24px;
+  color: #ffffff;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+#section3 .form-control {
+  background-color: #314584;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Work Sans SemiBold";
+  color: white;
+}
+
+footer {
+  background-color: #314584;
+  padding-bottom: 100px;
+}
+footer .txt1 {
+  padding-top: 100px;
+  font-family: "Work Sans SemiBold";
+  color: #ff3946;
+  font-size: 49px;
+}
+footer .txt2 {
+  display: inline;
+  color: #ffffff;
+  padding-right: 50px;
+}
+footer .tt {
+  padding-left: 650px;
+}
+
+/*# sourceMappingURL=style.css.map */
